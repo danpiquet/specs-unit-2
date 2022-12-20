@@ -55,7 +55,7 @@ html {
 header {
   display: flex;
   height: 70px;
-  justify-content: start;
+  justify-content: center;
   gap: 15px;
   align-items: center;
   padding: 0px 80px;
@@ -71,6 +71,20 @@ button {
   border: 2px solid #25aae1;
   border-radius: 3px;
   min-width: 125px;
+  margin: 10px;
+  
+}
+
+button:hover {
+  height: 44px;
+  font-size: 22px;
+  padding: 0px 12px;
+  color: white;
+  background-color: #25aae1;
+  border: 2px solid #25aae1;
+  border-radius: 3px;
+  min-width: 125px;
+  margin: 10px;
 }
 
 .page {
